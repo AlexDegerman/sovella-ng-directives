@@ -1,0 +1,6 @@
+<html>
+<button (click)="onClick()">Display Details</button>
+<p class="p" *ngIf="clicked">Tämä kappale sisältää salaista tietoa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur eveniet, in, nulla illo cupiditate temporibus qui vel animi fugiat corrupti aperiam maiores pariatur natus fuga accusamus culpa nisi, quae quo recusandae fugit? Molestiae praesentium quas temporibus nam asperiores ipsam, facere doloribus quibusdam dolor ullam amet in sint expedita obcaecati magnam?</p>
+
+<p *ngFor="let loki of loki; let i = index;"  [ngClass]="{'color': i > 3}"> {{ loki }} </p>
+</html>

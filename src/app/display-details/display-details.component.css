@@ -1,0 +1,23 @@
+
+
+.color {
+  color: white;
+  background-color: black;
+}
+button {
+  margin-left: 6rem;
+  margin-top: 1rem;
+  background-color: #DCA500;
+  border-color: #E5C055;
+}
+.p {
+  margin-left: 1rem;
+  background-color: #D6D8D9;
+  width: 250px;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+p {
+  margin-left: 1rem;
+}
